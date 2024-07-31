@@ -14,8 +14,8 @@
                <td>${emp.ename} </td>
                <td>${emp.job} </td>
                <td>${emp.sal} </td>
-               <td><a href="edit?no=${emp.empno}"><img src=" images/edit.png" width="25" height="25"></a>
-                       <a href="delete?no=${emp.empno}" onclick="return confirm(' Are U sure delete the employee ')"><img src=" images/delete.jpg" width="25" height="25"></a>
+               <td><a href="edit?no=${emp.empno}"><img src="../images/edit.png" width="25" height="25"></a>
+                       <a href="delete?no=${emp.empno}" onclick="return confirm(' Are U sure delete the employee ')"><img src="../images/delete.jpg" width="25" height="25"></a>
                   </td>
            </tr>
          </c:forEach>
@@ -31,7 +31,7 @@
              <h1  style="color:green;text-align:center">${resultMsg}</h1>
    </center>
 <center>
-<a href="./">home <img src="images/home.jfif" width="70" height="70"></a>  
+<a href="./">home <img src="../images/home.jfif" width="70" height="70"></a>  
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
- <a href="add">Add Employee<img src="images/add.jpg" width="70" height="70"></a>  
+ <a href="add">Add Employee<img src="../images/add.jpg" width="70" height="70"></a>  
 </center>
