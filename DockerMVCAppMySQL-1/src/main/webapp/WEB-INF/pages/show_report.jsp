@@ -1,6 +1,8 @@
-<%@ page isELIgnored="false" session="false"%>
+<%@ page isELIgnored="false"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core"  prefix="c"%>
+
 <%-- <%@ taglib uri="jakarta.tags.core" prefix="c" %> --%>
+<%-- <%@ taglib uri="http://jakarta.apache.org/taglibs/jsp/core" prefix="c" %> --%>
 
 <h1  style="color:red;text-align:center"> Employee Report Page  </h1>
 <c:choose>
