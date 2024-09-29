@@ -20,7 +20,7 @@ public class WishMsgServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException,IOException{
 		response.setContentType("text/html");
 		PrintWriter pw= response.getWriter();
-		pw.println("<h1 style='color:red;text-align:center'>Good Morning.........."+LocalDateTime.now()+"</h1>");
+		pw.println("<h1 style='color:red;text-align:center'>Good Morning.........."+LocalDate.now()+"</h1>");
 		pw.println("<a href='index.jsp'>Go Home</a>");
 		pw.close();
 	}
