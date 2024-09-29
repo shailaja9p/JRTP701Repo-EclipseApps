@@ -7,13 +7,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
   <display-name>Archetype Created Web Application</display-name>
-  <servlet>
-<servlet-name>Chapter1 Servlet</servlet-name>
+<!--   <servlet>
+<servlet-name>WishMsgServlet</servlet-name>
 <servlet-class>com.w3softech.servlet.WishMsgServlet</servlet-class>
 </servlet>
 
 <servlet-mapping>
-<servlet-name>Chapter1 Servlet</servlet-name>
-<url-pattern>/Serv1</url-pattern>
-</servlet-mapping>
+<servlet-name>WishMsgServlet</servlet-name>
+<url-pattern>/wishUrl</url-pattern>
+</servlet-mapping> -->
 </web-app>
